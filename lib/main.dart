@@ -61,7 +61,7 @@ class MyHomePage extends ConsumerWidget {
       )),
       body: Center(
         child: Text(
-          '$text',
+          text,
           style: TextStyle(fontSize: 32, color: Theme.of(context).primaryColor),
         ),
       ),
