@@ -7,8 +7,6 @@ class TextPage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final text = ref.watch(textProvider);
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Text Page'),
